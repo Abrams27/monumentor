@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80242F7C23C93B8D006BC9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80242F7B23C93B8D006BC9C9 /* AppDelegate.swift */; };
+		80242F7E23C93B8D006BC9C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80242F7D23C93B8D006BC9C9 /* SceneDelegate.swift */; };
+		80242F8323C93B8D006BC9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80242F8123C93B8D006BC9C9 /* Main.storyboard */; };
+		80242F8523C93B8F006BC9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80242F8423C93B8F006BC9C9 /* Assets.xcassets */; };
+		80242F8823C93B8F006BC9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80242F8623C93B8F006BC9C9 /* LaunchScreen.storyboard */; };
+		8097D89223D274F500A6C17E /* GoogleMapsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8097D89123D274F500A6C17E /* GoogleMapsService.swift */; };
+		80C17F2823CB9E670040B70F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F2723CB9E670040B70F /* WebService.swift */; };
+		80C17F2B23CBABF00040B70F /* Monument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F2A23CBABF00040B70F /* Monument.swift */; };
+		80C17F2D23CBAC540040B70F /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F2C23CBAC540040B70F /* Localization.swift */; };
+		80C17F2F23CBB0450040B70F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F2E23CBB0450040B70F /* Photo.swift */; };
+		80C17F3123CBB0580040B70F /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3023CBB0580040B70F /* Author.swift */; };
+		80C17F3323CBB2DB0040B70F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3223CBB2DB0040B70F /* Category.swift */; };
+		80C17F3923CBBA600040B70F /* MonumentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3823CBBA600040B70F /* MonumentInfo.swift */; };
+		80C17F3E23CBC4810040B70F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3A23CBC4810040B70F /* MainController.swift */; };
+		80C17F3F23CBC4810040B70F /* SelectedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3B23CBC4810040B70F /* SelectedListViewController.swift */; };
+		80C17F4023CBC4810040B70F /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3C23CBC4810040B70F /* CategoryTableViewController.swift */; };
+		80C17F4123CBC4810040B70F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C17F3D23CBC4810040B70F /* DetailsViewController.swift */; };
+		80C8A30A23D734760044C4BA /* SelectedMonumentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C8A30923D734760044C4BA /* SelectedMonumentsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38DAD2ACF490E77AE551D5FA /* Pods-Monumentor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monumentor.release.xcconfig"; path = "Target Support Files/Pods-Monumentor/Pods-Monumentor.release.xcconfig"; sourceTree = "<group>"; };
+		80242F7823C93B8D006BC9C9 /* Monumentor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monumentor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80242F7B23C93B8D006BC9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80242F7D23C93B8D006BC9C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80242F8223C93B8D006BC9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80242F8423C93B8F006BC9C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80242F8723C93B8F006BC9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80242F8923C93B8F006BC9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8097D89123D274F500A6C17E /* GoogleMapsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsService.swift; sourceTree = "<group>"; };
+		80C17F2723CB9E670040B70F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		80C17F2A23CBABF00040B70F /* Monument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monument.swift; sourceTree = "<group>"; };
+		80C17F2C23CBAC540040B70F /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		80C17F2E23CBB0450040B70F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		80C17F3023CBB0580040B70F /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		80C17F3223CBB2DB0040B70F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		80C17F3823CBBA600040B70F /* MonumentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonumentInfo.swift; sourceTree = "<group>"; };
+		80C17F3A23CBC4810040B70F /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		80C17F3B23CBC4810040B70F /* SelectedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedListViewController.swift; sourceTree = "<group>"; };
+		80C17F3C23CBC4810040B70F /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		80C17F3D23CBC4810040B70F /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		80C8A30923D734760044C4BA /* SelectedMonumentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedMonumentsCell.swift; path = ../../../../../../../../.Trash/SelectedMonumentsCell.swift; sourceTree = "<group>"; };
+		93FF0D6C36AC813DDD4F1716 /* libPods-Monumentor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Monumentor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99BD1B279370C38E9181CD4D /* Pods-Monumentor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monumentor.debug.xcconfig"; path = "Target Support Files/Pods-Monumentor/Pods-Monumentor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80242F7523C93B8D006BC9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80242F6F23C93B8D006BC9C9 = {
+			isa = PBXGroup;
+			children = (
+				80242F7A23C93B8D006BC9C9 /* Monumentor */,
+				80242F7923C93B8D006BC9C9 /* Products */,
+				B2123A07BB49852918654562 /* Pods */,
+				DFCA6A7D9553BF51247CB384 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80242F7923C93B8D006BC9C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80242F7823C93B8D006BC9C9 /* Monumentor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80242F7A23C93B8D006BC9C9 /* Monumentor */ = {
+			isa = PBXGroup;
+			children = (
+				80242F7B23C93B8D006BC9C9 /* AppDelegate.swift */,
+				80242F7D23C93B8D006BC9C9 /* SceneDelegate.swift */,
+				80242F8623C93B8F006BC9C9 /* LaunchScreen.storyboard */,
+				80242F8123C93B8D006BC9C9 /* Main.storyboard */,
+				80C17F3523CBB3350040B70F /* services */,
+				80C17F3423CBB3050040B70F /* controllers */,
+				80C17F2923CBAB660040B70F /* models */,
+				80242F8923C93B8F006BC9C9 /* Info.plist */,
+				80242F8423C93B8F006BC9C9 /* Assets.xcassets */,
+			);
+			path = Monumentor;
+			sourceTree = "<group>";
+		};
+		80C17F2923CBAB660040B70F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				80C17F3723CBB6B80040B70F /* short-info */,
+				80C17F3623CBB6920040B70F /* full-info */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		80C17F3423CBB3050040B70F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C8A30923D734760044C4BA /* SelectedMonumentsCell.swift */,
+				80C17F3C23CBC4810040B70F /* CategoryTableViewController.swift */,
+				80C17F3D23CBC4810040B70F /* DetailsViewController.swift */,
+				80C17F3B23CBC4810040B70F /* SelectedListViewController.swift */,
+				80C17F3A23CBC4810040B70F /* MainController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		80C17F3523CBB3350040B70F /* services */ = {
+			isa = PBXGroup;
+			children = (
+				80C17F2723CB9E670040B70F /* WebService.swift */,
+				8097D89123D274F500A6C17E /* GoogleMapsService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		80C17F3623CBB6920040B70F /* full-info */ = {
+			isa = PBXGroup;
+			children = (
+				80C17F2A23CBABF00040B70F /* Monument.swift */,
+				80C17F2C23CBAC540040B70F /* Localization.swift */,
+				80C17F2E23CBB0450040B70F /* Photo.swift */,
+				80C17F3023CBB0580040B70F /* Author.swift */,
+				80C17F3223CBB2DB0040B70F /* Category.swift */,
+			);
+			path = "full-info";
+			sourceTree = "<group>";
+		};
+		80C17F3723CBB6B80040B70F /* short-info */ = {
+			isa = PBXGroup;
+			children = (
+				80C17F3823CBBA600040B70F /* MonumentInfo.swift */,
+			);
+			path = "short-info";
+			sourceTree = "<group>";
+		};
+		B2123A07BB49852918654562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99BD1B279370C38E9181CD4D /* Pods-Monumentor.debug.xcconfig */,
+				38DAD2ACF490E77AE551D5FA /* Pods-Monumentor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFCA6A7D9553BF51247CB384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FF0D6C36AC813DDD4F1716 /* libPods-Monumentor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80242F7723C93B8D006BC9C9 /* Monumentor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80242F8C23C93B8F006BC9C9 /* Build configuration list for PBXNativeTarget "Monumentor" */;
+			buildPhases = (
+				737380EFCE8F3810FC92FCB3 /* [CP] Check Pods Manifest.lock */,
+				80242F7423C93B8D006BC9C9 /* Sources */,
+				80242F7523C93B8D006BC9C9 /* Frameworks */,
+				80242F7623C93B8D006BC9C9 /* Resources */,
+				D2632DF4FE4D9E847F1905F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monumentor;
+			productName = Monumentor;
+			productReference = 80242F7823C93B8D006BC9C9 /* Monumentor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80242F7023C93B8D006BC9C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Marcin Abramowicz";
+				TargetAttributes = {
+					80242F7723C93B8D006BC9C9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 80242F7323C93B8D006BC9C9 /* Build configuration list for PBXProject "Monumentor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80242F6F23C93B8D006BC9C9;
+			productRefGroup = 80242F7923C93B8D006BC9C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80242F7723C93B8D006BC9C9 /* Monumentor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80242F7623C93B8D006BC9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80242F8823C93B8F006BC9C9 /* LaunchScreen.storyboard in Resources */,
+				80242F8523C93B8F006BC9C9 /* Assets.xcassets in Resources */,
+				80242F8323C93B8D006BC9C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		737380EFCE8F3810FC92FCB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Monumentor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2632DF4FE4D9E847F1905F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Monumentor/Pods-Monumentor-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Monumentor/Pods-Monumentor-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Monumentor/Pods-Monumentor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80242F7423C93B8D006BC9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C17F3E23CBC4810040B70F /* MainController.swift in Sources */,
+				80242F7C23C93B8D006BC9C9 /* AppDelegate.swift in Sources */,
+				80C17F3F23CBC4810040B70F /* SelectedListViewController.swift in Sources */,
+				80C8A30A23D734760044C4BA /* SelectedMonumentsCell.swift in Sources */,
+				8097D89223D274F500A6C17E /* GoogleMapsService.swift in Sources */,
+				80C17F2823CB9E670040B70F /* WebService.swift in Sources */,
+				80C17F2F23CBB0450040B70F /* Photo.swift in Sources */,
+				80C17F2D23CBAC540040B70F /* Localization.swift in Sources */,
+				80C17F2B23CBABF00040B70F /* Monument.swift in Sources */,
+				80C17F3123CBB0580040B70F /* Author.swift in Sources */,
+				80242F7E23C93B8D006BC9C9 /* SceneDelegate.swift in Sources */,
+				80C17F3923CBBA600040B70F /* MonumentInfo.swift in Sources */,
+				80C17F3323CBB2DB0040B70F /* Category.swift in Sources */,
+				80C17F4123CBC4810040B70F /* DetailsViewController.swift in Sources */,
+				80C17F4023CBC4810040B70F /* CategoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80242F8123C93B8D006BC9C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80242F8223C93B8D006BC9C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80242F8623C93B8F006BC9C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80242F8723C93B8F006BC9C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80242F8A23C93B8F006BC9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80242F8B23C93B8F006BC9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80242F8D23C93B8F006BC9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BD1B279370C38E9181CD4D /* Pods-Monumentor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7925PB3243;
+				INFOPLIST_FILE = Monumentor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abrams.Monumentor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		80242F8E23C93B8F006BC9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DAD2ACF490E77AE551D5FA /* Pods-Monumentor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7925PB3243;
+				INFOPLIST_FILE = Monumentor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abrams.Monumentor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80242F7323C93B8D006BC9C9 /* Build configuration list for PBXProject "Monumentor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80242F8A23C93B8F006BC9C9 /* Debug */,
+				80242F8B23C93B8F006BC9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80242F8C23C93B8F006BC9C9 /* Build configuration list for PBXNativeTarget "Monumentor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80242F8D23C93B8F006BC9C9 /* Debug */,
+				80242F8E23C93B8F006BC9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80242F7023C93B8D006BC9C9 /* Project object */;
+}
