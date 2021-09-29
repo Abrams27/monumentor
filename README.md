@@ -1,7 +1,5 @@
-# MIMUW-BD-Monumentor
-Project for the BD class (Data Bases class) - 1. term 19/20
+# monumentor
 
-# Description
 Mobile application (iOS) for finding and searching monuments in Poland. 
 
 ### Usage:
